@@ -1,0 +1,20 @@
+package Productos;
+
+public class CongeladoAire {
+float nitrogeno;
+float  oxigeno;
+float dioxCarbono;
+float varporAgua;
+float composicion;
+
+	public float  getcomposicion() 
+    {
+		
+	 return composicion; 
+	}
+	public void setcomposicion(float  composicion) {
+	
+		this.composicion = composicion;
+	
+	}	
+}
