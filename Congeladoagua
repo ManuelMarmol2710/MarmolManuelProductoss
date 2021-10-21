@@ -1,0 +1,21 @@
+package Productos;
+
+public class Congeladoagua {
+
+private float salinidadAgua;
+private float mS;
+private float mW;;
+
+public void CongeladoAguas() {
+
+float S = mS / mW * 1000;
+}
+public float getsalinidadAgua() 
+{
+	
+ return salinidadAgua; 
+
+
+}
+
+}
