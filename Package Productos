@@ -1,0 +1,70 @@
+package Productos;
+
+public class Producto {
+
+	
+    private int fechaCaducidad;
+	private int numeroLote;
+	private int fechaEnvasado;
+	private String paisDeOrigen;
+	
+	 public static void main(String[] args) {
+		   Productofrio producto1 = new Productofrio ();
+
+		   producto1.settempRecomendada(11);
+
+		  productoFresco producto2 = new productoFresco();
+
+		producto2. productoFrescos();
+
+
+		}
+	
+	
+	public int getfechaCaducidad() {
+		
+		return fechaCaducidad; 
+	}
+	public void setfechaCaducidad(int fechaCaducidad) {
+	
+		this.fechaCaducidad = fechaCaducidad;
+		
+	}
+
+	public void setnumeroLote (int numeroLote ) {
+	
+		this.numeroLote = numeroLote;
+		
+	}
+	
+	public void setfechaEnvasado (int fechaEnvasado) {
+	
+	this.fechaEnvasado = fechaEnvasado;
+
+	
+    }
+
+	
+	public void setpaisDeOrigen (String paisdeOrigen) {
+		
+	this.paisDeOrigen = paisdeOrigen;
+			
+	
+	}
+	 public int getnumeroLote() {
+			
+			return numeroLote;
+     }		
+			
+     public int getfechaEnvasado () {
+    		return fechaEnvasado;
+    		
+     }
+     public String getpaisDeOrigen () {
+             
+    	 return paisDeOrigen;
+             
+    
+     }
+
+}   
