@@ -1,0 +1,34 @@
+package Productos;
+
+public class congeladoNitrogeno {
+
+	String metodoEmpleado;
+	int tiempoExposicion = 10;
+	
+	public String  getmetodoEmpleado()  {
+			
+		 return metodoEmpleado; 
+		}
+	
+		public void setmetodoempleado(String metodoEmpleado) {
+		
+			this.metodoEmpleado =  metodoEmpleado;
+		} 
+	 public int  gettiempoExposicion() 
+		     {
+				
+			 return tiempoExposicion; 
+			}
+			public void settiempoExposicion(int  tiempoExposicion) {
+			
+				this.tiempoExposicion =  tiempoExposicion;
+			
+			}	
+		   
+		
+          
+		
+	
+	
+	
+	}
