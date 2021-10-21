@@ -1,0 +1,42 @@
+package Productos;
+
+public class Productofrio {
+
+	private float tempRecomendada;
+	
+ 
+ 
+    public float  gettempRecomendada() 
+     {
+		
+	 return tempRecomendada; 
+	}
+	public void settempRecomendada(float  tempRecomendada) {
+	
+		this.tempRecomendada =  tempRecomendada;
+	
+	}
+ 
+ 
+	public static void main(String[] args) {
+	
+productoRefrigerado producto3 = new productoRefrigerado();
+           
+		   producto3.setcodSupervision(10);
+	
+congeladoNitrogeno producto4 = new congeladoNitrogeno();
+           producto4.setmetodoempleado("Metodoempleado");
+           
+           producto4.settiempoExposicion(13);
+
+Congeladoagua producto5 = new Congeladoagua();
+producto5.CongeladoAguas();
+	
+CongeladoAire producto6 = new CongeladoAire ();
+producto6.setcomposicion(14);
+	
+	
+	}
+
+
+}
